@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet</title>
+    <link rel="stylesheet" href="pet.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="leftnav">
+                <img src="./images/heart-light.png" alt="heart">
+                <h1>Pet Shelter</h1>
+            </div>
+            <div class="rightnav">
+                <h2>Find a Pet</h2>
+                <h2>About</h2>
+                <button onclick="disappear(this)">Donate</button>
+            </div>
+        </div>
+        <div class="container">
+            <div id="pet-choice">
+                <p>I'm lokking for a...</p>
+                <img class="paw" src="./images/paw-light.png" alt="paw">
+                <select name="" id="drop" onchange="choice1(this)">
+                    <option value="Any pet"> Any pet</option>
+                    <option value="You selected cat">Cat</option>
+                    <option value="You selected dog">Dog</option>
+                </select>
+            </div>
+            <div id="location">
+                <p>in or near...</p>
+                <img class="pin" src="./images/pin-light.png" alt="nav">
+                <input type="text" name="" id="" placeholder="city or state">
+            </div>
+            <button class="but">Find your new best friend</button>
+        </div>
+    </nav>
+    <!-- navigation bar -->
+    <div class="container">
+        <main>
+            <div class="box3">
+                <div class="card-body3">
+                    <div class="nei">
+                        <img class="pup" src="./images/pepper.jpg" alt="pep">
+                    </div>
+                    <div class="para">
+                        <h1>Pepper</h1><br>
+                        <p>Pepper is a slighlty shy grey tabby, but she</p>
+                        <p>really loves showing her human affection.</p>
+                    </div>
+                    <div class="nlike">
+                        <p id="pet">3 petting(s)</p><br>
+                        <button onclick="addTo()" class="ke">Pet Pepper</button>
+                    </div>
+                </div>
+            </div>
+            <!-- fourth box-->
+            <div class="box4">
+                <div class="card-body4">
+                    <div class="kn">
+                        <img class="bru" src="./images/bruce.jpg" alt="bru">
+                    </div>
+                    <div class="para1">
+                        <h1>Bruce</h1><br>
+                        <p>Bruce is aloyal companion.He loves long <br>
+                        <p>walks and cold weather</p>
+                    </div>
+                    <div class="nic">
+                        <p id="pets">5 petting(s)</p><br>
+                        <button onclick="tryTo()" class="btn2">Pet Bruce</button>
+                    </div>
+                </div>
+            </div>
+            <!-- fifth box -->
+            <div class="box5">
+                <div class="card-body5">
+                    <div class="jim">
+                        <img class="osc" src="./images/oscar.jpg" alt="osc">
+                    </div>
+                    <div class="para2">
+                        <h1>Oscar</h1><br>
+                        <p>Oscar is bright, enrgetiv and friendly.He is</p>
+                        <p>looking for a good home.</p>
+                    </div>
+                    <div class="ni">
+                        <p id="pett">8 petting(s) </p><br>
+                        <button onclick="countTo()" class="nick">Pet Oscar</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="p.js"></script>
+</body>
+
+</html>

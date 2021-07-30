@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 0 auto;
+    gap: 1.5em;
+}
+
+.rightnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5em;
+}
+.bottom {
+    display: flex;
+}
+
+
+
+nav {
+      background-color:teal ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin-bottom: 20px;
+}
+
+main {
+    flex: 3; 
+    align-self: center; 
+}
+.box3 {
+    border: 1px solid grey;
+    margin-bottom: 30px;
+    
+}
+.box4 {
+    border: 1px solid grey;
+    margin-bottom: 30px;
+}
+.box5 {
+    border: 1px solid grey; 
+}
+
+.card-body3 {
+    padding: 1.5em;
+    display: flex;
+}
+
+.card-body4, .card-body5 {
+    padding: 1.5em;
+}
+
+
+
+
+
+.nlike {
+    margin-top: 20px;
+    height: 40px;
+    gap: 1.5em;
+}
+
+ /* right side 1 box end */
+.card-body4, .card-body5 {
+    display: flex;
+}
+
+.nic, .ni {
+
+    height: 40px;
+    gap: 1.5em;
+}
+ /* right isde of box 2 end */
+
+
+
+
+
+.pup, .osc, .bru {
+    height: 200 px;
+    width: 200px;
+}
+
+
+
+.ke, .btn2, .nick {
+    height: 50px;
+    width: 200px;
+    background-color:cornflowerblue;
+}
+
+
+.para, .para1, .para2 {
+    margin-right: 40px;
+}
+
+
+.paw {
+    width: 20px;
+    height: 20px;
+}
+.pin, .paw {
+    width: 20px;
+    height: 20px;
+}
+
+
+.but {
+    background-color:blueviolet;
+}
+
+.leftnav {
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    width:10px;
+    height:10px;
+}
+
+.para,  .para1, .para2 {
+    margin-left: 20px;
+}
+
